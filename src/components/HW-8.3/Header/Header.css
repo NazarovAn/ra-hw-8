@@ -1,0 +1,46 @@
+.neto__header {
+  display: flex;
+  padding: .5rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(235, 235, 240);
+  height: 60px;
+}
+
+.neto__header_logo {
+  font-size: 1.25rem;
+}
+
+.neto__header_form {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.neto__header_form input {
+  padding: .3rem .7rem;
+}
+.neto__header_form a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(60, 140, 60);
+  border: 1px solid rgb(60, 140, 60);
+  border-radius: 4px;
+  padding: .4rem .6rem;
+}
+
+.neto__header_greeting {
+  display: flex;
+  align-items: center;
+}
+.neto__header_greeting img {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border-radius: 50%;
+}
+.neto__header_greeting a {
+  text-decoration: none;
+  color: rgb(200, 0, 0);
+  border: 1px solid rgb(200, 0, 0);
+  border-radius: 4px;
+  padding: .4rem .6rem;
+}

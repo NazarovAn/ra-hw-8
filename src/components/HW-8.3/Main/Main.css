@@ -1,0 +1,44 @@
+.neto__main {
+  padding: 1rem 1.5rem;
+}
+
+.neto__main_banner {
+  background-color: rgb(200, 220, 230);
+  padding: 3rem 1.5rem;
+  width: 70%;
+  margin: auto;
+}
+.neto__main_banner h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.neto__main_banner span {
+  font-size: 1.25rem;
+}
+
+.neto__main_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.neto__main_card {
+  width: 49%;
+  list-style: none;
+  border: 1px solid  rgb(200, 220, 230);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.neto__main_card img {
+  width: 100%;
+}
+.neto__main_card span {
+  display: block;
+  padding: 1rem 1.5rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.neto__main_card p {
+  padding: 0 1.5rem 1rem 1.5rem;
+}
